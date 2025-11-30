@@ -1,0 +1,29 @@
+site_name: Minha Documentação
+site_url: https://lucasrodrigues062.github.io/doc-sym/
+
+theme:
+  name: material
+  language: pt-BR
+  palette: 
+    # Modo Escuro/Claro automático
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs # Menu no topo estilo abas
+    - search.suggest  # Sugestão na busca
+    - content.code.copy # Botão de copiar código
+
+# Menu lateral (Navegação)
+nav:
+  - Início: index.md
+  - Sobre: about.md
