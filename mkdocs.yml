@@ -1,6 +1,10 @@
 site_name: Minha Documentação
-site_url: https://lucasrodrigues062.github.io/doc-sym/
+site_url: https://lucasrodrigues062.github.io/doc-sym/]
 
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 theme:
   name: material
   language: pt-BR
