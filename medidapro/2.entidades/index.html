@@ -893,15 +893,14 @@
 *   <code>Produto</code>: Itens que podem ser insumos ou produtos finais.
 *   <code>CliFor</code>: Cadastro único de Clientes e Fornecedores.</p>
 <h2 id="diagrama-relacional-simplificado">Diagrama Relacional Simplificado</h2>
-<div class="highlight"><pre><span></span><code>erDiagram
+<pre class="mermaid"><code>erDiagram
     FORMULA ||--|{ INGREDIENTE : contem
     FORMULA ||--|| PRODUTO : produz
     INGREDIENTE }|--|| PRODUTO : usa
     SIMULACAO ||--|{ SIMULACAO_ITEM : possui
     SIMULACAO }|--|| CLIFOR : cliente
     SIMULACAO }|--|| USUARIO : criador
-    MOVIMENTO_CONVERSAO }|--|| CLIFOR : origem
-</code></pre></div>
+    MOVIMENTO_CONVERSAO }|--|| CLIFOR : origem</code></pre>
 
 
 
