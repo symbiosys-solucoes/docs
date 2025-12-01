@@ -32,7 +32,7 @@ nav:
   - Início: index.md
   - Sobre: about.md
   - MedidaPro:
-      - Visão Geral: medidapro/didapro/entidades.md
+      - Visão Geral: medidapro/index.md
       - Fórmulas: medidapro/formulas.md
       - Instalação: medidapro/instalacao.md
       - Produção: medidapro/producao.md
