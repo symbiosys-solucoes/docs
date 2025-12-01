@@ -32,8 +32,9 @@ nav:
   - Início: index.md
   - Sobre: about.md
   - MedidaPro:
-      - Visão Geral: medidapro/index.md
-      - Fórmulas: medidapro/formulas.md
-      - Instalação: medidapro/instalacao.md
-      - Produção: medidapro/producao.md
-      - Simulações: medidapro/simulacoes.md
+      - Visão Geral: medidapro/1.index.md
+      - Entidades: medidapro/2.entidades.md
+      - Fórmulas: medidapro/3.formulas.md
+      - Instalação: medidapro/4.instalacao.md
+      - Produção: medidapro/5.producao.md
+      - Simulações: medidapro/6.simulacoes.md
