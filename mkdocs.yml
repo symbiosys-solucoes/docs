@@ -27,3 +27,13 @@ theme:
     - search.suggest  # Sugestão na busca
     - content.code.copy # Botão de copiar código
 
+# Menu lateral (Navegação)
+nav:
+  - Início: index.md
+  - Sobre: about.md
+  - MedidaPro:
+      - Visão Geral: medidapro/index.md
+      - Fórmulas: medidapro/formulas.md
+      - Instalação: medidapro/instalacao.md
+      - Produção: medidapro/producao.md
+      - Simulações: medidapro/simulacoes.md
