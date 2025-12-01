@@ -1,0 +1,33 @@
+# Documentação do MedidaPro
+
+Bem-vindo à documentação oficial do **MedidaPro**.
+
+## O que é o MedidaPro?
+
+O MedidaPro é uma aplicação desenvolvida para auxiliar na gestão de processos de manufatura e precificação. Ele permite o gerenciamento de fórmulas de produtos, simulação de custos e preços, e o controle de produção baseado em notas fiscais de entrada.
+
+A aplicação foi construída utilizando tecnologias modernas, incluindo Java com Spring Boot e Vaadin para a interface web.
+
+## Funcionalidades Principais
+
+*   **Gestão de Fórmulas:** Cadastro e manutenção de fórmulas de produtos, definindo ingredientes, quantidades e percentuais de desperdício.
+*   **Simulações:** Criação de simulações de custo e preço de venda, considerando mão de obra e materiais, vinculadas a clientes e orçamentos.
+*   **Conversão de Produção:** Monitoramento de notas fiscais (NFs) e geração automática de registros de produção e baixa de matéria-prima.
+*   **Controle de Acesso:** Sistema seguro com níveis de acesso (Usuário e Admin).
+
+## Navegação
+
+Utilize o menu lateral para acessar as diferentes seções desta documentação:
+
+*   [Instalação e Execução](instalacao.md): Como configurar e rodar o projeto.
+*   [Fórmulas](formulas.md): Guia para gerenciar fórmulas de produtos.
+*   [Simulações](simulacoes.md): Como criar e analisar simulações.
+*   [Produção e Conversão](producao.md): Processo de geração de produção via NFs.
+*   [Modelo de Dados](entidades.md): Detalhes técnicos sobre as entidades do sistema.
+
+## Tecnologias Utilizadas
+
+*   **Backend:** Java 21, Spring Boot 3.4.3
+*   **Frontend:** Vaadin 24.7.0 (Flow)
+*   **Banco de Dados:** Microsoft SQL Server (via JPA/Hibernate)
+*   **Containerização:** Docker
