@@ -29,10 +29,10 @@ theme:
 
 # Menu lateral (Navegação)
 nav:
-  - Início: medidapro/index.md
+  - Início: index.md
   - Sobre: about.md
-  - MedidaPro:                  
-      - Entidades: medidapro/entidades.md
+  - MedidaPro:
+      - Visão Geral: medidapro/didapro/entidades.md
       - Fórmulas: medidapro/formulas.md
       - Instalação: medidapro/instalacao.md
       - Produção: medidapro/producao.md
